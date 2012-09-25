@@ -90,6 +90,7 @@ enum actionSheetButtonIndex {
 -(void)dealloc
 {
     [webView setDelegate:nil];
+    [super dealloc];
 }
 
 #pragma mark - Init
